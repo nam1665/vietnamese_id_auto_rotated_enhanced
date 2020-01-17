@@ -19,8 +19,8 @@ def automatic_brightness_and_contrast(image, clip_hist_percent=25):
 
     # Locate points to clip
     maximum = accumulator[-1]
-    clip_hist_percent *= (maximum/120.0)
-    clip_hist_percent /= 2.5
+    clip_hist_percent *= (maximum/180.0)
+    clip_hist_percent /= 4
 
     # Locate left cut
     minimum_gray = 0
@@ -155,4 +155,5 @@ def imgage_crop_enhanced(image_path_detect):
 
 
 image_path_detect = 'test.jpg'
-imgage_crop_enhanced(image_path_detect)
+a = imgage_crop_enhanced(image_path_detect)
+print(a)

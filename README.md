@@ -24,6 +24,6 @@ Input: ![test](test2.jpg)
 
 Output: 
 
-For all ID: ![test](cut_all/test_all.jpg)
+For all ID: ![test](test_all.jpg)
 
-For only text we need: ![test](text/test_text.jpg)
+For only text we need: ![test](test_text.jpg)

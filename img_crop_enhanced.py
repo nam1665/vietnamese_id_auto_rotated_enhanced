@@ -82,5 +82,5 @@ def imgage_crop_enhanced(image_path_detect):
         return "img_error"
 
 
-image_path_detect = 'test7.jpg'
+image_path_detect = 'test.jpg'
 imgage_crop_enhanced(image_path_detect)

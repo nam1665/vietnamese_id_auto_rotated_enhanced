@@ -1,0 +1,21 @@
+item {
+ id: 1
+ name: 'person'
+}
+
+item {
+ id: 2
+ name: 'text'
+}
+
+item {
+ id: 3
+ name: 'logo'
+}
+
+item {
+ id: 4
+ name: 'all'
+}
+
+
